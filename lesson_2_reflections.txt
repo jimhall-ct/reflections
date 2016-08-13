@@ -13,3 +13,8 @@ By only adding the files that make up the logical change to the staging area whe
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When you are about to make a major change on something you are not sure how to do, such as an experimental feature.
+
+How do the diagrams help you visualize the branch structure?
+
+Visual seeing the structure always makes things easier to understand.
+
