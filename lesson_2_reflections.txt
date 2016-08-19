@@ -1,27 +1,27 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q: What happens when you initialize a repository? Why do you need to do it?
 
-A hidden .git folder and files are created to support using git. This is required to create a repository of files for git to use.
+A: A hidden .git folder and files are created to support using git. This is required to create a repository of files for git to use and keep track of all your files.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-The staging area are the files that are being tracked and committed. Not all files in the working directory will be committed, only those that are added to the staging area. This helps save space and not save versions of files that don't change often.
+A: The staging area allows you to commit groups of files together as a logical unit. This gives you more control over the commit.
 
-How can you use the staging area to make sure you have one commit per logical change?
+Q: How can you use the staging area to make sure you have one commit per logical change?
 
-By only adding the files that make up the logical change to the staging area when you commit.
+A: By only adding the files that make up the logical change to the staging area, the programmer has control over which files will be associated with each commit.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-When you are about to make a major change on something you are not sure how to do, such as an experimental feature.
+A: When you are about to make a major change on something you are not sure how to do, such as an experimental feature. When working in a multiuser environment, other programmers can work on their portion of the program without fear of disrupting everyone else.
 
-How do the diagrams help you visualize the branch structure?
+Q: How do the diagrams help you visualize the branch structure?
 
-Visual seeing the structure always makes things easier to understand.
+A: Visual seeing the structure always makes things easier to understand.
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-Merging two branches brings the new features of the coins into the main branch.
+A: Merging two branches brings the new features of the coins into the main branch.
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-The pro to Git's merging is the speed and when there is a conflict, the differences are easily identifiable. The cons will be sometimes it won't be able to figure out how to merge the files or it may merge together and not work.
+A: The pro to Git's merging is the speed and when there is a conflict, the differences are easily identifiable. The cons will be sometimes it won't be able to figure out how to merge the files or it may merge together and not work.
