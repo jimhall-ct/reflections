@@ -26,4 +26,4 @@ A: A simple form of collaboration would be using email to send/receive proposed 
 Q: When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-A:
+A: Make changes in a separate branch when you are trying out new features or collaborating on someone else's project. This keeps the master free from too many hands in the pot, which would be a cause for bugs. The downside to separate branches is it adds complexity to git, by having to merge the branches back into the master, you need a solid understanding how the system works so you don't overwrite or lose code.
