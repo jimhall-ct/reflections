@@ -21,7 +21,7 @@ A: It allows the local repository to know if it is out of sync with the remote. 
 Q: How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-A:
+A: A simple form of collaboration would be using email to send/receive proposed changes. This would be easier than learning git/github but in the long run would be far more time consuming. Trying to keep track of all of the file changes and manual inserting code sounds like a nightmare.
 
 Q: When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
