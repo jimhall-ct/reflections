@@ -16,7 +16,7 @@ A: Forks are like clones on GitHub. Use them when you want to copy an existing G
 Q: What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-A:
+A: It allows the local repository to know if it is out of sync with the remote. By knowing the last known state, git will know if changes have been made to both local and remote copies. It will know at what point it will need to merge the commits.
 
 Q: How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
