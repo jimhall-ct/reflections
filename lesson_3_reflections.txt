@@ -11,7 +11,7 @@ A: You may have commits that have not been pushed to the remote repository yet. 
 Q: Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-A:
+A: Forks are like clones on GitHub. Use them when you want to copy an existing GitHub repository to your own. Clones are copies on our local machine. Use them when you want to copy the code but don't intend to share it with others. Branches are separate paths of development used to create new features or experiment with ideas.
 
 Q: What is the benefit of having a copy of the last known state of the remote
 stored locally?
